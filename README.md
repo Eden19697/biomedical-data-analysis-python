@@ -4,7 +4,7 @@ A hands-on learning portfolio for biomedical data analysis with Python. This rep
 
 > **Educational use only.** The included datasets and analyses are for programming practice, not clinical use or medical decision-making.
 
-## Available chapter
+## Available chapters
 
 ### 01 · NumPy basics
 
@@ -15,12 +15,24 @@ Exercises use small practice datasets to cover:
 - missing-value handling and reproducible random sampling
 - vital-sign trends, peak detection, and simple risk screening
 
+### 02 · Python data workflows
+
+Practice with useful standard-library tools that support data-processing work:
+
+- paired filtering with `zip` and list comprehensions
+- value positions with `enumerate`
+- frequency counting and grouping with `Counter` and `defaultdict`
+- FIFO queue processing with `deque`
+- memory-efficient value filtering with generators
+
 ## Repository structure
 
 ```text
 01_numpy_basics/
 ├── data/                         Practice vital-sign data
 └── numpy_*_practice.py           Standalone NumPy exercises
+02_python_data_workflows/
+└── python_data_idioms_practice.py  Python standard-library data workflows
 ```
 
 ## Getting started
@@ -37,6 +49,7 @@ Run a practice file from the repository root, for example:
 
 ```bash
 python 01_numpy_basics/numpy_patient_vitals_practice.py
+python 02_python_data_workflows/python_data_idioms_practice.py
 ```
 
 ## Notes on the data and results
