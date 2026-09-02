@@ -1,0 +1,3 @@
+patient_id,department,heart_rate,oxygen_level,temperature
+102,respiratory,105,95.0,37.9
+104,respiratory,112,91.0,38.2

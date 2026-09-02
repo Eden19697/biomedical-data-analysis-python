@@ -25,6 +25,14 @@ Practice with useful standard-library tools that support data-processing work:
 - FIFO queue processing with `deque`
 - memory-efficient value filtering with generators
 
+### 03 · Pandas basics
+
+Practice table-oriented analysis with simulated patient data:
+
+- DataFrame creation, boolean filtering, grouping, sorting, and missing-value handling
+- CSV input/output, descriptive statistics, correlation, and merging
+- datetime analysis, rolling windows, pivot tables, interpolation, and custom row logic
+
 ## Repository structure
 
 ```text
@@ -33,6 +41,9 @@ Practice with useful standard-library tools that support data-processing work:
 └── numpy_*_practice.py           Standalone NumPy exercises
 02_python_data_workflows/
 └── python_data_idioms_practice.py  Python standard-library data workflows
+03_pandas_basics/
+├── data/                         Practice patient-vitals CSV files
+└── pandas_*_practice.py          Standalone Pandas exercises
 ```
 
 ## Getting started
@@ -50,6 +61,7 @@ Run a practice file from the repository root, for example:
 ```bash
 python 01_numpy_basics/numpy_patient_vitals_practice.py
 python 02_python_data_workflows/python_data_idioms_practice.py
+python 03_pandas_basics/pandas_patient_dataframe_practice.py
 ```
 
 ## Notes on the data and results
