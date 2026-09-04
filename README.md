@@ -33,6 +33,14 @@ Practice table-oriented analysis with simulated patient data:
 - CSV input/output, descriptive statistics, correlation, and merging
 - datetime analysis, rolling windows, pivot tables, interpolation, and custom row logic
 
+### 04 · Matplotlib basics
+
+Practice turning vital-sign data into readable static figures:
+
+- line charts and rolling-mean overlays
+- departmental comparison bars and priority-patient scatter plots
+- subplot layout and rolling variability views
+
 ## Repository structure
 
 ```text
@@ -44,6 +52,9 @@ Practice table-oriented analysis with simulated patient data:
 03_pandas_basics/
 ├── data/                         Practice patient-vitals CSV files
 └── pandas_*_practice.py          Standalone Pandas exercises
+04_matplotlib_basics/
+├── output/                       Rendered practice figures
+└── matplotlib_vitals_plotting_practice.py
 ```
 
 ## Getting started
@@ -62,6 +73,7 @@ Run a practice file from the repository root, for example:
 python 01_numpy_basics/numpy_patient_vitals_practice.py
 python 02_python_data_workflows/python_data_idioms_practice.py
 python 03_pandas_basics/pandas_patient_dataframe_practice.py
+python 04_matplotlib_basics/matplotlib_vitals_plotting_practice.py
 ```
 
 ## Notes on the data and results
