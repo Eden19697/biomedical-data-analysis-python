@@ -41,6 +41,14 @@ Practice turning vital-sign data into readable static figures:
 - departmental comparison bars and priority-patient scatter plots
 - subplot layout and rolling variability views
 
+### 05 · Capstone patient-vitals analysis
+
+An end-to-end practice workflow for a small simulated patient dataset:
+
+- CSV loading, median imputation, and z-score outlier removal
+- departmental heart-rate summaries
+- a histogram, department-level box plot, and annotated correlation heatmap
+
 ## Repository structure
 
 ```text
@@ -55,6 +63,10 @@ Practice turning vital-sign data into readable static figures:
 04_matplotlib_basics/
 ├── output/                       Rendered practice figures
 └── matplotlib_vitals_plotting_practice.py
+05_capstone_project/
+├── data/                         Simulated patient-vitals CSV file
+├── output/                       Rendered capstone figures
+└── capstone_patient_analysis.py
 ```
 
 ## Getting started
@@ -74,6 +86,7 @@ python 01_numpy_basics/numpy_patient_vitals_practice.py
 python 02_python_data_workflows/python_data_idioms_practice.py
 python 03_pandas_basics/pandas_patient_dataframe_practice.py
 python 04_matplotlib_basics/matplotlib_vitals_plotting_practice.py
+python 05_capstone_project/capstone_patient_analysis.py
 ```
 
 ## Notes on the data and results

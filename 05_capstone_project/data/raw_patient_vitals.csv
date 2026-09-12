@@ -1,0 +1,13 @@
+patient_id,department,heart_rate,oxygen_level,temperature
+101,cardiology,72,98,36.7
+102,cardiology,88,97,36.5
+103,cardiology,95,,36.9
+104,cardiology,68,96,36.6
+105,respiratory,105,94,37.9
+106,respiratory,98,93,37.5
+107,respiratory,190,92,38.5
+108,respiratory,100,,37.6
+109,neurology,80,97,36.8
+110,neurology,85,96,37.0
+111,neurology,78,98,36.6
+112,neurology,90,95,37.2
