@@ -49,6 +49,14 @@ An end-to-end practice workflow for a small simulated patient dataset:
 - departmental heart-rate summaries
 - a histogram, department-level box plot, and annotated correlation heatmap
 
+### 06 · Introduction to machine learning
+
+Practice supervised classification with simulated patient-risk labels:
+
+- feature/label separation and reproducible train/test splits
+- decision-tree and logistic-regression classifiers
+- held-out accuracy, misclassification review, feature importance, and overfitting comparisons
+
 ## Repository structure
 
 ```text
@@ -67,6 +75,9 @@ An end-to-end practice workflow for a small simulated patient dataset:
 ├── data/                         Simulated patient-vitals CSV file
 ├── output/                       Rendered capstone figures
 └── capstone_patient_analysis.py
+06_intro_ml/
+├── data/                         Simulated labeled-patient CSV file
+└── ml_*_practice.py              Introductory scikit-learn exercises
 ```
 
 ## Getting started
@@ -87,6 +98,7 @@ python 02_python_data_workflows/python_data_idioms_practice.py
 python 03_pandas_basics/pandas_patient_dataframe_practice.py
 python 04_matplotlib_basics/matplotlib_vitals_plotting_practice.py
 python 05_capstone_project/capstone_patient_analysis.py
+python 06_intro_ml/ml_risk_classifier_practice.py
 ```
 
 ## Notes on the data and results
