@@ -57,6 +57,14 @@ Practice supervised classification with simulated patient-risk labels:
 - decision-tree and logistic-regression classifiers
 - held-out accuracy, misclassification review, feature importance, and overfitting comparisons
 
+### 07 · GitHub practice project: heart-disease prediction
+
+Apply the introductory workflow to a larger binary-classification dataset:
+
+- guided and completed Jupyter notebooks for a logistic-regression classifier
+- reproducible stratified train/test splitting and held-out accuracy checks
+- local CSV input and a one-patient prediction example
+
 ## Repository structure
 
 ```text
@@ -78,6 +86,10 @@ Practice supervised classification with simulated patient-risk labels:
 06_intro_ml/
 ├── data/                         Simulated labeled-patient CSV file
 └── ml_*_practice.py              Introductory scikit-learn exercises
+07_github_practice_project/
+├── heart_disease_data.csv         Local binary-classification dataset
+├── Heart_Disease_Prediction.ipynb Guided practice notebook
+└── Heart_Disease_Prediction_solution.ipynb  Completed reference notebook
 ```
 
 ## Getting started
@@ -99,6 +111,7 @@ python 03_pandas_basics/pandas_patient_dataframe_practice.py
 python 04_matplotlib_basics/matplotlib_vitals_plotting_practice.py
 python 05_capstone_project/capstone_patient_analysis.py
 python 06_intro_ml/ml_risk_classifier_practice.py
+jupyter lab 07_github_practice_project/Heart_Disease_Prediction.ipynb
 ```
 
 ## Notes on the data and results
