@@ -65,6 +65,14 @@ Apply the introductory workflow to a larger binary-classification dataset:
 - reproducible stratified train/test splitting and held-out accuracy checks
 - local CSV input and a one-patient prediction example
 
+### 08 · Kaggle practice project: diabetes prediction
+
+Apply a complete binary-classification workflow to the Kaggle diabetes dataset:
+
+- documented Kaggle dataset attribution and a local CSV copy for reproducibility
+- zero-value cleaning, median imputation, exploratory analysis, and feature scaling
+- class-balanced logistic regression with held-out metrics and a confusion matrix
+
 ## Repository structure
 
 ```text
@@ -90,6 +98,11 @@ Apply the introductory workflow to a larger binary-classification dataset:
 ├── heart_disease_data.csv         Local binary-classification dataset
 ├── Heart_Disease_Prediction.ipynb Guided practice notebook
 └── Heart_Disease_Prediction_solution.ipynb  Completed reference notebook
+08_kaggle_practice_project/
+├── data/diabetes-dataset.csv       Kaggle dataset copy; attribution in chapter README
+├── Diabetic_test.ipynb             Executable data-cleaning and classification notebook
+├── README.md                       Source, attribution, and usage notes
+└── 笔记_diabetes_prediction.md      Chinese review notes and exercises
 ```
 
 ## Getting started
@@ -112,6 +125,7 @@ python 04_matplotlib_basics/matplotlib_vitals_plotting_practice.py
 python 05_capstone_project/capstone_patient_analysis.py
 python 06_intro_ml/ml_risk_classifier_practice.py
 jupyter lab 07_github_practice_project/Heart_Disease_Prediction.ipynb
+jupyter lab 08_kaggle_practice_project/Diabetic_test.ipynb
 ```
 
 ## Notes on the data and results
