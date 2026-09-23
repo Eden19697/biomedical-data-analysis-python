@@ -73,6 +73,14 @@ Apply a complete binary-classification workflow to the Kaggle diabetes dataset:
 - zero-value cleaning, median imputation, exploratory analysis, and feature scaling
 - class-balanced logistic regression with held-out metrics and a confusion matrix
 
+### 09 · Regression practice project: insurance-cost prediction
+
+Practice continuous-value prediction with an insurance-cost dataset:
+
+- distribution and group-based exploratory analysis of medical-insurance charges
+- one-hot encoding plus BMI and smoking interaction features
+- linear-regression evaluation with RMSE, R², and residual diagnostics
+
 ## Repository structure
 
 ```text
@@ -103,6 +111,9 @@ Apply a complete binary-classification workflow to the Kaggle diabetes dataset:
 ├── Diabetic_test.ipynb             Executable data-cleaning and classification notebook
 ├── README.md                       Source, attribution, and usage notes
 └── 笔记_diabetes_prediction.md      Chinese review notes and exercises
+09_regression_practice_project/
+├── data/insurance.csv               Local medical-insurance cost dataset
+└── Insurance_cost.ipynb             Executable regression workflow and diagnostics
 ```
 
 ## Getting started
@@ -126,6 +137,7 @@ python 05_capstone_project/capstone_patient_analysis.py
 python 06_intro_ml/ml_risk_classifier_practice.py
 jupyter lab 07_github_practice_project/Heart_Disease_Prediction.ipynb
 jupyter lab 08_kaggle_practice_project/Diabetic_test.ipynb
+jupyter lab 09_regression_practice_project/Insurance_cost.ipynb
 ```
 
 ## Notes on the data and results
